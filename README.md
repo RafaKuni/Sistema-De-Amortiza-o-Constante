@@ -16,3 +16,11 @@
   
 </p>
 
+<h3> Status do Projeto </h3>
+<p> 🕓 Em Atualização, em breve será postado o Sistema de Amortização Francês e o Price </p>
+
+<h3> Linguagens e Ferramentas utilizadas </h3>
+<a href="https://javascript.info/document"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="40"/></a> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="40" height="40"/></a> <a href="https://devdocs.io/css/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="40" height="40"/> <a href="https://code.visualstudio.com/docs"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40"/></a>
+
+
+
