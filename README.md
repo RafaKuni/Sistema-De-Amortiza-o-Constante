@@ -3,11 +3,16 @@
 <p> O projeto foi desenvolvido para auxiliar nos cálculos referentes a finanças, especificamente aos sistemas de amortização constante, ou SAC </p>
 
 <h2> Descrição do Projeto </h2>
-<p> O sistema em si é simples, na pagina "index.html" teremos 3 campos para serem preenchidos:
+<p> O sistema em si é simples, na pagina "index.html" temos 3 campos para serem preenchidos:
 <ul>
 <li> O Saldo Inicial;
 <li> O prazo (em meses);
-<li> E a taxa de Juros;
+<li> E a taxa de Juros;<br><br>
 </li>
+</ul>
   <img src= "./img/form.png" title="Formulario" alt="Formulario"/>
+  Quando clicamos em "Calcular", ele gera uma tabela dinamica, feita em Javascript
+  <img src="./img/table.png" title="Tabela" alt="Tabela"/>
+  
 </p>
+
