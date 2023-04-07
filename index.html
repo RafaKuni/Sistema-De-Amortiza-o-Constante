@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sistema SAC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <p>Sistema de Amortização Constante - SAC</p>
+    <div class="form">
+    <input type="number" id="saldoInicial" name="saldoInicial" class="saldoInicial" placeholder="Saldo Devedor"/>
+    <input type="number" id="prazo" name="prazo" class="prazo" placeholder="Numero de Periodos"/>
+    <input type="number" id="taxaJuros" name="taxaJuros" class="taxaJuros" placeholder="Taxa de Juros (% ao ano)"/>
+    <br>
+    <button id="botao-calcular" onclick="calcularSAC()">Calcular</button>
+  </div>
+  <div class="table-div">
+    <table id="tabela">
+      <thead>
+        <tr>
+          <th>Prazo</th>
+          <th>Saldo</th>
+          <th>Amortização</th>
+          <th>Juros</th>
+          <th>Prestação</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-prestacoes"></tbody>
+  </table> 
+</div>
+  </body>
+</html>
